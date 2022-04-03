@@ -1,7 +1,11 @@
 {{-- Creo un file index che contenga tutti i fumetti --}}
 @extends('layouts.base')
 
-@section('pageTitle', 'Comics')
+@section('pageTitle')
+
+    {{$comic->title}}
+    
+@endsection
 
 @section('content')
 

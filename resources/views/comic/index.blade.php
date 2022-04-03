@@ -9,6 +9,8 @@
 
         <h1 class="my-4">Fumetti disponibili</h1>
 
+        <a class="btn btn-success" role="button" href="{{route('comic.create')}}">Crea nuovo fumetto</a>
+
         <table class="table">
 
             <thead>

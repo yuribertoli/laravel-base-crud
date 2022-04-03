@@ -3,5 +3,5 @@
 @section('pageTitle', 'HomePage')
 
 @section('content')
-    Hola
+   CIAO GRETAAAAAAA
 @endsection

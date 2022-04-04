@@ -24,6 +24,7 @@
             <div class="mb-3"> {{-- inserisco una textarea per più righe text --}}
               <label for="description" class="form-label">Descrizione</label>
               <textarea class="form-control" name="description" id="description">
+                {{old('description')}}
               </textarea>
             </div>
 
